@@ -1,0 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* NAVBAR CSS ------------------------------------------------*/
+.navbar{
+  height: 5vh;
+  background-color: #021e3e;
+  padding: 10px 10px;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbarButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarButton{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+.navbarButton:hover{
+  background-color: #043266;
+}
+
+
+
+.pageContainer{
+  height: 94vh;
+  background-image: url('./img/boje2.png');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}

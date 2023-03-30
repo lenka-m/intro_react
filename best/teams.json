@@ -1,0 +1,15 @@
+{
+    "teams":[
+        {
+            "id":1,
+            "name": "It",
+            "num":5,
+            "my_team":0
+        },{
+            "id":2,
+            "name":"FR",
+            "num":60,
+            "my_team":0
+        }
+    ]
+}
