@@ -1,11 +1,18 @@
 // importi
 
-function Teams() {
-  // const i funkcije u toku
+import TeamCard from "../Components/TeamCard"
+
+function Teams({myTeams, setMyTeams}) {
   
+  const pageNum = 1;
   
   return (
-    <div className="pageContainer">Teams</div>
+    <div className="pageContainer">
+      <div className='CardsContainer'>
+      {myTeams.map((team)=>(
+        <TeamCard team={team} pageNum={pageNum} myTeams={myTeams} setMyTeams={setMyTeams} />
+      ))}</div>
+    </div>
   )
 }
 

@@ -2,13 +2,38 @@
     "teams":[
         {
             "id":1,
-            "name": "It",
-            "num":5,
+            "name": "Information Technology Team",
+            "description":"Tim za informacione tehnologije radi na identitetu naše organizacije na internetu. Stvaranje i održavanje sajtova projekata, glavnog sajta, tehnička podrška i održavanje servera samo su neki od primera poslova koje IT tim predano obavlja i koji ga čine nezaobilaznim delom svakog događaja. Brojne radionice koje se održavaju tokom godine, čine da naš IT tim bude...",
             "my_team":0
         },{
             "id":2,
-            "name":"FR",
-            "num":60,
+            "name":"Fundraising Team",
+            "description":"Tim koji je zaslužan za sva partnerstva organizacije sa mnogobrojnim kompanijama, državnim institucijama i organizacijama. Neki od zadataka ovog tima su obezbeđivanje novčanih i robnih sponzorstava za realizaciju projekata, sklapanje godišnjih saradnji i održavanje prijateljskih odnosa sa dosadašnjim partnerima kako bi se obezbedila međusobna podrška u budućnosti. Kroz istraživanje mogućih partnera, telefonsku komunikaciju, pregovaranje putem mejlova...",
+            "my_team":0
+        },{
+            "id":3,
+            "name":"Public Relations",
+            "description":"Tim za ljudske resurse bavi se temeljom naše organizacije –  našim sadašnjim i potencijalnim članovima. Regrutovanje novih članova i njihovo upoznavanje sa postojećim kolektivom jedan su od prvih zadataka HR-a. Stalnim praćenjem rezultata, tim za ljudske resurse uočava potencijalne načine kako da dodatno motiviše članstvo, usmeri i unapredi njihove indiv...",
+            "my_team":0
+        },{
+            "id":4,
+            "name":"Human Resources",
+            "description":"Tim za ljudske resurse bavi se temeljom naše organizacije –  našim sadašnjim i potencijalnim članovima. Regrutovanje novih članova i njihovo upoznavanje sa postojećim kolektivom jedan su od prvih zadataka HR-a. Stalnim praćenjem rezultata, tim za ljudske resurse uočava potencijalne načine kako da dodatno motiviše članstvo, usmeri i unapredi njihove indiv...",
+            "my_team":0
+        },{
+            "id":5,
+            "name":"Publications",
+            "description":"Dobar glas daleko se čuje, ali se isto tako i vidi. Pored usmenih promocija naše organizacije i projekata, za željeni efekat važna je i vizuelna promocija. Tu na čelo stupa tim za dizajn tj. publikacije. U saradnji sa timom za odnose sa javnošću članovi kreiraju vizuale i promotivne materijale koji treba na verodostojan način da prenesu sadržajnu poruku,",
+            "my_team":0
+        },{
+            "id":6,
+            "name":"Knoweledge Management",
+            "description":"Tim za upravljanje znanjem neprekidno brine o prikupljanju i prenosu znanja koje posedujemo kao organizacija. Bavi se osmišljavanjem radionica i treninga kroz koje naši članovi unapređuju svoje sposobnosti i veštine. Istraživanje potreba članova, upravljanje",
+            "my_team":0
+        },{
+            "id":7,
+            "name":"GRANT",
+            "description":"Za obezbeđivanje eksternih sredstava koja su neophodna za realizaciju projekata organizacije pišu se projekti – grantovi, pa otuda i potiče naziv ovog tima. Kada neka državna institucija, kompanija ili asocijacija raspiše konkurs, članovi tima imaju zadatak da razmotre",
             "my_team":0
         }
     ]

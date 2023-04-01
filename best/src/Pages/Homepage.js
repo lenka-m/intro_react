@@ -1,27 +1,24 @@
 import {useEffect, useState} from 'react'
+import TeamCard from '../Components/TeamCard';
 
-function Homepage() {
-  const [teams, setTeams] = useState(null);
-  
-  async function getTeams(){
-    const res = await fetch('http://localhost:3031/teams');
-    const data = await res.json();
-    setTeams(data);
-    console.log(data);
-  }
-  //Prikupljanje podataka
-  useEffect(()=>{
-    
-    getTeams();
-  },[])
 
+
+function Homepage({teams, myTeams, setMyTeams}) {
+  const pageNum  = 0;
   return (
     <div className="pageContainer">
-      {teams!=null ? (
-        <p>{teams[0].id}</p>
-      ):(<div>nema</div>)}
+      {teams.length === 0 ? (
+        <div> nema </div>
+      ) : (
+        <div className='CardsContainer'>
+          
+          {teams.map((team) => (
+            <TeamCard key={team.id} pageNum = {pageNum} myTeams={myTeams} team ={team} setMyTeams={setMyTeams}/>
+          ))}
+        </div>
+      )}
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
